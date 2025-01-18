@@ -20,10 +20,10 @@
             width: 25%;
             background: linear-gradient(135deg, #6a11cb, #2575fc);
             color: #fff;
+            padding: 30px;
             box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
             display: flex;
             flex-direction: column;
-            padding: 30px
         }
 
         .sidebar h2 {
@@ -33,15 +33,42 @@
             padding-bottom: 10px;
         }
 
+        .sidebar img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            border: 3px solid rgba(255, 255, 255, 0.3);
+        }
+
         .sidebar p {
             margin: 10px 0;
             line-height: 1.6;
+            text-align: center;
         }
 
         .sidebar p strong {
             display: inline-block;
             width: 100px;
             color: rgba(255, 255, 255, 0.9);
+        }
+
+        .social-links {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .social-links a {
+            color: #fff;
+            font-size: 1.5rem;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: #ffcc00;
         }
 
         .content {
@@ -106,11 +133,19 @@
 <body>
 
     <div class="sidebar">
+        <img src="profile.jpg" alt="Profile Picture">
         <h2>About Me</h2>
+        <p>Hello! 👋 I'm John Doe, a passionate Web Developer with a love for creating modern and user-friendly websites.</p>
         <p><strong>Name:</strong> John Doe</p>
         <p><strong>Profession:</strong> Web Developer</p>
         <p><strong>Email:</strong> john.doe@example.com</p>
         <p><strong>Location:</strong> San Francisco, CA</p>
+
+        <div class="social-links">
+            <a href="https://twitter.com" target="_blank">🐦</a>
+            <a href="https://github.com" target="_blank">💻</a>
+            <a href="https://linkedin.com" target="_blank">🔗</a>
+        </div>
     </div>
 
     <div class="content">
@@ -126,27 +161,6 @@
             <p>A brief description of Project Two goes here.</p>
         </div>
 
-        <div class="project">
-            <h3>Project Three</h3>
-            <p>A brief description of Project Three goes here.</p>
-        </div>
-
-        
-        <div class="project">
-            <h3>Project Three</h3>
-            <p>A brief description of Project Three goes here.</p>
-        </div>
-        
-        <div class="project">
-            <h3>Project Three</h3>
-            <p>A brief description of Project Three goes here.</p>
-        </div>
-        
-        <div class="project">
-            <h3>Project Three</h3>
-            <p>A brief description of Project Three goes here.</p>
-        </div>
-        
         <div class="project">
             <h3>Project Three</h3>
             <p>A brief description of Project Three goes here.</p>
